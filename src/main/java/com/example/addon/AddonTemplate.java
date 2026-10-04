@@ -1,5 +1,5 @@
 package com.example.addon;
-
+import com.example.addon.modules.SkinFlicker;
 import com.example.addon.commands.CommandExample;
 import com.example.addon.hud.HudExample;
 import com.example.addon.modules.ModuleExample;
@@ -24,7 +24,7 @@ public class AddonTemplate extends MeteorAddon {
 
         // Modules
         Modules.get().add(new ModuleExample());
-
+Modules.get().add(new SkinFlicker());
         // Commands
         Commands.add(new CommandExample());
 
